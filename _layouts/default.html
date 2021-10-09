@@ -4,22 +4,13 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/cb46b03d5c.js" crossorigin="anonymous"></script>
   </head>
   <body>
     {% include header.html %}
-
-    <div class="content">
-      {{ content }}
-    </div>
+    
+    {{ content }}
       
-    <footer>
-      <div class="footer-container">
-        <p class="{{ page.color }}">
-          2021 - Todos os direitos reservados
-        </p>
-  
-        {% include media.html %}
-      </div>
-    </footer>
+    {% include footer.html %}
   </body>
 </html>

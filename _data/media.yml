@@ -1,9 +1,9 @@
 - name: face
-  logo:
-  url:
+  icon: fa-facebook-square
+  link:
 - name: github
-  logo:
-  url:
+  icon: fa-github
+  link:
 - name: email
-  logo:
-  url:
+  icon: fa-instagram
+  link:

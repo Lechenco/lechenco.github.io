@@ -1,0 +1,36 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 32px 0px;
+  flex-grow: 1;
+}
+
+.content-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 64px 150px 90px;
+  background-color: white;
+  border-radius: 16px;
+  box-sizing: border-box;
+
+  h1 {
+    text-align: center;
+    margin: 16px 0px;
+  }
+
+  img {
+    max-width: 240px;
+    max-height: 400px;
+    margin: 16px;
+    border: 4px solid $middle-blue-green;
+    border-radius: 4px;
+  }
+
+  p:nth-child(n +2) {
+    text-align: justify;
+  }
+}

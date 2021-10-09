@@ -29,7 +29,7 @@ header {
 }
 
 nav {
-  margin-left: 120px;
+  margin-left: 150px;
 
   a {
     text-decoration: none;
@@ -50,8 +50,11 @@ nav {
   ul {
     display: flex;
     li {
-      padding: 4px;
+      padding: 8px;
       list-style-type: none;
+      i {
+        font-size: 24px;
+      }
     }
   }
 }
@@ -76,33 +79,3 @@ nav {
     line-height: 19px;
   }
 }
-
-.post-container, 
-.content-container {
-  width: 80%;
-  max-width: 1000px;
-  margin: 32px auto;
-  padding: 64px 150px 90px;
-  background-color: white;
-  border-radius: 16px;
-  box-sizing: border-box;
-
-  h1 {
-    text-align: center;
-    margin: 16px 0px;
-  }
-
-  img {
-    max-width: 240px;
-    max-height: 400px;
-    margin: 16px;
-    border: 4px solid $middle-blue-green;
-    border-radius: 4px;
-  }
-
-  p:nth-child(n +2) {
-    text-align: justify;
-  }
-}
-
-
