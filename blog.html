@@ -2,13 +2,10 @@
 layout: container
 title: Blog
 ---
-<h1>Latest Posts</h1>
+<h1>Últimos Artigos</h1>
 
-<ul>
+<div class="blogs-container">
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
+    {% include blog-card.html %}
   {% endfor %}
-</ul>
+</div>

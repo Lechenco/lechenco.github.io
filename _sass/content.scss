@@ -1,17 +1,9 @@
-.post-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .content {
   padding: 32px 0px;
   flex-grow: 1;
 }
 
 .content-container {
-  width: 80%;
-  max-width: 1000px;
-  margin: auto;
   padding: 64px 150px 90px;
   background-color: white;
   border-radius: 16px;
@@ -33,4 +25,17 @@
   p:nth-child(n +2) {
     text-align: justify;
   }
+}
+
+code.language-plaintext {
+  background-color: $middle-blue-green;
+  padding: 0px 4px;
+  border-radius: 4px;
+}
+
+div.language-plaintext {
+  margin: 16px 0px;
+  background-color: #F4F4F2;
+  padding: 16px;
+  border-radius: 8px;
 }

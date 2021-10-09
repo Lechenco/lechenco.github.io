@@ -1,0 +1,16 @@
+<a href="{{ post.url }}">
+    <div class="blog-card">
+        <div class="image">
+            
+        </div>
+        <div class="blog-card-content">
+            <div class="blog-card-header">
+                <h1 class="{{ post.color }}">{{ post.title }}</h1>
+    
+                <h5>{{post.date | date: "%d/%m/%Y"}}</h5>
+            </div>
+    
+            <h4>{{ post.subtitle }}</h4>
+        </div>
+    </div>
+</a>
