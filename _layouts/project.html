@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="project">
+<div class="project-header">
+    <h1 class="{{ page.color }}">{{page.name}}</h1>
+    <h2 class="{{ page.color }}">{{ content }}</h2>
+</div>
+
+<div class="projects-container">
+    <div class="projects-area">
+
+        <h1>Artigos</h1>
+        <div class="posts-container">
+            {% assign filtered_posts = site.posts | where: 'project', page.short_name %}
+            {% for post in filtered_posts %}
+                {% include post-card.html %}
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
+</div>

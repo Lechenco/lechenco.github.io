@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
 }
 
 body {
@@ -11,6 +12,13 @@ body {
 }
 
 header {
+  height: 120px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+div.foo {
   height: 120px;
 }
 

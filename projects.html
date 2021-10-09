@@ -1,0 +1,17 @@
+---
+layout: default
+title: Projetos
+---
+
+<div class="projects-container">
+    <div class="projects-area">
+        <h1>Projetos</h1>
+        <div class="projects">
+            {% for project in site.projects %}
+            
+            {% include project-card.html %}
+            
+            {% endfor %}
+        </div>
+    </div>
+</div>

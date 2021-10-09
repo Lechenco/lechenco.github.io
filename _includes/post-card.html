@@ -1,0 +1,11 @@
+<a href="{{ post.url }}">
+    <div class="post-card">
+        <div class="post-card-header">
+            <h1 class="{{ page.color }}">{{ post.title }}</h1>
+
+            <h5>{{post.date | date: "%d/%m/%Y"}}</h5>
+        </div>
+
+        <p>{{ post.excerpt }}</p>
+    </div>
+</a>
