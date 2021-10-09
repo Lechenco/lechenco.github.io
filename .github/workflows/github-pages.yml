@@ -13,5 +13,6 @@ jobs:
       - uses: helaili/jekyll-action@2.0.5
         with:
           target_branch: 'gh-pages'
-        with:
-          token: ${{ secrets.MY_TOKEN }}
+        env:
+          JEKYLL_PAT: ${{ secrets.MY_TOKEN }}
+          JEKYLL_ENV: production
