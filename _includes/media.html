@@ -1,0 +1,9 @@
+<div class="media-container">
+    <ul>
+        {% for item in site.data.media %}
+        <li class="{{ page.color }}">
+            {{ item.name }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
