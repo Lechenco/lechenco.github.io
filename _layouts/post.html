@@ -4,7 +4,13 @@ layout: default
 
 <div class="post-container">
   {% assign project = site.projects | where: 'short_name', page.project | first %}
-  <div class="post-header align-center">
+  <div class="post-header align-center header-cover"
+  {% if page.cover %} 
+    style="background-image: url({{ page.cover }});"  
+  {% else %}
+    style="background-image: url({{ project.cover }});"
+  {% endif %}
+  >
     <a href="{{project.url}}">
       <h3 class="{{ page.color }}">{{project.name}} </h3>
     </a>

@@ -1,7 +1,7 @@
 ---
 short_name: machine
 name: Aprendizado de Máquina
-image:
+cover:
 color: ruby-red 
 ---
 

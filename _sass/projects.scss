@@ -36,7 +36,7 @@
   .image {
     width: 100%;
     margin-bottom: 8px;
-    background-color: grey;
+    background-color: white;
     height: 130px;
   }
 }
@@ -115,4 +115,10 @@
     font-weight: 600;
     font-size: 32px;
   }
+}
+
+.header-cover {
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 40%;
 }

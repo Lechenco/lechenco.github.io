@@ -6,7 +6,7 @@
 
 .blog-card {
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 100px 1fr;
     border-radius: 8px;
     background-color: #F4F4F2;
 
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
 
     h1 {
         margin: 0px;
@@ -40,8 +40,14 @@
 
 .blog-card .image {
     width: 100%;
-    background-color: grey;
+    margin: 4px 0px 4px 4px;
+    background-color: white;
     border-radius: 8px 0px 0px 8px;
+    overflow: hidden;
+
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 
 .post-container {
@@ -50,8 +56,8 @@
 }
 
 .post-header {
-    margin-bottom: 40px;
-    margin-top: 16px;
+    padding-bottom: 40px;
+    padding-top: 16px;
     
     a {
         margin-top: 16px;

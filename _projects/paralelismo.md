@@ -1,7 +1,7 @@
 ---
 short_name: paralelismo
 name: Paralelismo
-image:
+cover:
 color: blue-sapphire 
 ---
 

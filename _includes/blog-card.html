@@ -1,7 +1,13 @@
 <a href="{{ post.url }}">
     <div class="blog-card">
-        <div class="image">
-            
+        {% assign project = site.projects | where: 'short_name', post.project | first %}
+        <div class="image"
+            {% if post.cover %} 
+                style="background-image: url({{ post.cover }});"  
+            {% else %}
+                style="background-image: url({{ project.cover }});"
+            {% endif %}
+        >
         </div>
         <div class="blog-card-content">
             <div class="blog-card-header">
@@ -9,7 +15,7 @@
     
                 <h5>{{post.date | date: "%d/%m/%Y"}}</h5>
             </div>
-    
+            <h5 class="{{ post.color }}">{{ project.name }}</h5>
             <h4>{{ post.subtitle }}</h4>
         </div>
     </div>

@@ -1,7 +1,7 @@
 ---
 short_name: automato
 name: Autômatos
-image:
+cover: /assets/images/automato/cover.svg
 color: mahogany 
 ---
 
