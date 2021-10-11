@@ -1,7 +1,7 @@
 ---
 short_name: machine
 name: Aprendizado de Máquina
-cover:
+cover: /assets/images/machine/cover.svg
 color: ruby-red 
 ---
 

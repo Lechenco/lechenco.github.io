@@ -1,9 +1,3 @@
-- name: face
-  icon: fa-facebook-square
-  link:
 - name: github
   icon: fa-github
-  link:
-- name: email
-  icon: fa-instagram
-  link:
+  link: https://github.com/Lechenco/

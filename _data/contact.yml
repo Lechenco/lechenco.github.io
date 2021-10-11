@@ -1,0 +1,15 @@
+- name: Github
+  icon: "fab fa-github"
+  link: https://github.com/Lechenco/
+- name: Email
+  icon: "far fa-envelope"
+  link: "mailto:glechenco@gmail.com"
+- name: Instagram
+  icon: "fab fa-instagram"
+  link: https://www.instagram.com/gabriellechenco/
+- name: Twitter
+  icon: "fab fa-twitter"
+  link: https://twitter.com/G_Lechenco
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  link: https://www.linkedin.com/in/gabriellechenco/

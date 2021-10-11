@@ -1,0 +1,24 @@
+---
+layout: container
+title: Contato
+---
+<div class="contact-page">
+    <h1>Entre em Contato</h1>
+
+    <h3>
+        Fique a vontade para entrar em contato ou me seguir em outras redes.
+    </h3>
+
+    <div class="contact-container">
+        {% for contact in site.data.contact %}
+        <a href="{{ contact.link }}">
+            <div class="contact-item">
+                <i class="{{ contact.icon }}"></i>
+                <h2>
+                    {{ contact.name }}
+                </h2>
+            </div>
+        </a>
+        {% endfor %}
+</div>
+</div>

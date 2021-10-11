@@ -1,7 +1,7 @@
 ---
 short_name: paralelismo
 name: Paralelismo
-cover:
+cover: /assets/images/paralelismo/cover.svg
 color: blue-sapphire 
 ---
 

@@ -87,3 +87,37 @@ nav {
     line-height: 19px;
   }
 }
+
+.contact-page {
+  h3 {
+    text-align: center;
+  }
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 32px auto;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 48px;
+  background-color: #F4F4F2;
+  width: 300px;
+  border-radius: 16px;
+  padding: 16px;
+
+  i {
+    margin-left: 16px;
+    font-size: 32px;
+  }
+}
+
+.contact-item:hover {
+  background-color: $medium-champagne;
+}
