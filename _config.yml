@@ -21,3 +21,6 @@ defaults:
     values:
       layout: "container"
       color: "rich-black"
+
+markdown: kramdown
+highlighter: rouge
