@@ -9,4 +9,7 @@ title: About
 
 # Gabriel Lechenco
 
-Formado em engenharia de computação, escrevo neste blog sobre as tecnologias e conceitos que eu estou estudando sobre mais diversos tópicos, como automatos, programação paralela, aprendizado de máquina e análise de dados.
+Formado em engenharia de computação, desenvolvedor Fullstack. Decidi criar este 
+blog para escrever sobre as tecnologias e conceitos que eu estou estudando sobre 
+mais diversos tópicos, como automatos, programação paralela, aprendizado de 
+máquina e análise de dados.
