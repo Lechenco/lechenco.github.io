@@ -5,6 +5,10 @@
 }
 
 .projects-area {
+  @media (max-width: 786px) {
+    padding: 16px 30px 32px;
+  }
+
   padding: 64px 80px 90px;
   background-color: white;
   border-radius: 16px;
@@ -77,6 +81,9 @@
   }
 
   h2 {
+    @media (max-width: 786px) {
+      max-width: 90%;  
+    }
     max-width: 60%;
     margin-bottom: 40px;
   }
@@ -118,6 +125,12 @@
 }
 
 .header-cover {
+  @media (max-width: 786px) {
+    background-position: right bottom;
+    background-size: 50%;
+    padding-bottom: 100px;
+  }
+
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 40%;

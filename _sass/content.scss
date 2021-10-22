@@ -4,6 +4,10 @@
 }
 
 .content-container {
+  @media (max-width: 786px) {
+    padding: 32px;
+  }
+
   padding: 64px 150px 90px;
   background-color: white;
   border-radius: 16px;
@@ -12,6 +16,10 @@
   h1 {
     text-align: center;
     margin: 16px 0px;
+  }
+
+  h4 {
+    text-align: center;
   }
 
   img {
@@ -24,6 +32,7 @@
 
   p:nth-child(n +2) {
     text-align: justify;
+    margin-bottom: 16px;
   }
 }
 
