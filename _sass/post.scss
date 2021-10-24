@@ -1,4 +1,9 @@
 .blogs-container {
+    @media (max-width: 786px),
+    (max-width: 1100px) and (orientation: portrait) {
+        gap: 40px;
+    }
+
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -18,7 +23,27 @@
 }
 
 .blog-card-content {
+    @media (max-width: 786px),
+    (max-width: 1100px) and (orientation: portrait) {
+        padding: 32px 40px;
+    }
+
     padding: 8px 16px;
+
+    h4 {
+        @media (max-width: 786px),
+        (max-width: 1100px) and (orientation: portrait) {
+            display: none;
+        }
+    }
+
+    h5 {
+        @media (max-width: 786px),
+        (max-width: 1100px) and (orientation: portrait) {
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
 }
 
 .blog-card:hover {
@@ -26,12 +51,22 @@
 }
 
 .blog-card-header {
+    @media (max-width: 786px),
+    (max-width: 1100px) and (orientation: portrait) {
+        flex-direction: column;
+    }
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0px;
 
     h1 {
+        @media (max-width: 786px),
+        (max-width: 1100px) and (orientation: portrait) {
+            font-size: 3.2rem;
+        }
+
         margin: 0px;
         font-weight: 600;
         font-size: 32px;
@@ -58,7 +93,7 @@
 .post-header {
     @media (max-width: 786px),
     (max-width: 1100px) and (orientation: portrait) {
-        padding-bottom: 100px;
+        padding-bottom: 160px;
     }
 
     padding-bottom: 40px;
@@ -67,11 +102,22 @@
     a {
         margin-top: 16px;
         h3 {
+            @media (max-width: 786px),
+            (max-width: 1100px) and (orientation: portrait) {
+                font-size: 2rem;
+            }
+
             font-size: 16px;
         }
     }
 
     h1 {
+        @media (max-width: 786px),
+        (max-width: 1100px) and (orientation: portrait) {
+            font-size: 3.4rem;
+            line-height: 3.6rem;
+        }
+
         font-size: 32px;
         line-height: 36px;
         margin-bottom: 8px;

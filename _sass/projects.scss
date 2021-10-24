@@ -32,6 +32,12 @@
 }
 
 .project-card {
+  @media (max-width: 786px),
+  (max-width: 1100px) and (orientation: portrait) {
+    width: 440px;
+    padding: 32px;
+  }
+
   width: 220px;
   margin: 16px;
   padding: 8px;
@@ -39,10 +45,22 @@
   border-radius: 8px;
 
   .image {
+    @media (max-width: 786px),
+    (max-width: 1100px) and (orientation: portrait) {
+      height: 260px;
+    }
+
     width: 100%;
     margin-bottom: 8px;
     background-color: white;
     height: 130px;
+
+    img {
+      @media (max-width: 786px),
+      (max-width: 1100px) and (orientation: portrait) {
+        width: 440px;
+      } 
+    }
   }
 }
 
@@ -54,11 +72,21 @@
   padding: 0px 8px;
 
   h3 {
+    @media (max-width: 786px),
+    (max-width: 1100px) and (orientation: portrait) {
+      font-size: 2.2rem;
+    }
+
     font-size: 16px;
     font-weight: bold;
   }
 
   p {
+    @media (max-width: 786px),
+    (max-width: 1100px) and (orientation: portrait) {
+      font-size: 1.8rem;
+    }
+
     margin-top: 4px;
     font-style: normal;
     font-weight: normal;
@@ -77,6 +105,10 @@
 .project-header {
 
   h1 {
+    @media (max-width: 786px),
+    (max-width: 1100px) and (orientation: portrait) {
+     font-size: 70px; 
+    }
     font-size: 28px;
     margin: 16px 0px 8px;
   }
@@ -84,7 +116,7 @@
   h2 {
     @media (max-width: 786px),
     (max-width: 1100px) and (orientation: portrait) {
-      max-width: 90%;  
+      max-width: 70%;  
     }
     max-width: 60%;
     margin-bottom: 40px;
@@ -92,12 +124,22 @@
 }
 
 .posts-container {
+  @media (max-width: 786px),
+  (max-width: 1100px) and (orientation: portrait) {
+    gap: 60px;
+  }
+
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
 .post-card {
+  @media (max-width: 786px),
+  (max-width: 1100px) and (orientation: portrait) {
+    padding: 40px;
+  }
+  
   padding: 8px 40px 16px;
   border-radius: 8px;
   background-color: #F4F4F2;
@@ -107,6 +149,13 @@
     font-size: 14px;
     line-height: 16px;
   }
+
+  h4 {
+    @media (max-width: 786px),
+    (max-width: 1100px) and (orientation: portrait) {
+      display: none;
+    }
+  }
 }
 
 .post-card:hover {
@@ -114,12 +163,22 @@
 }
 
 .post-card-header {
+  @media (max-width: 786px),
+  (max-width: 1100px) and (orientation: portrait) {
+    flex-direction: column;
+  }
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;
 
   h1 {
+    @media (max-width: 786px),
+    (max-width: 1100px) and (orientation: portrait) {
+      font-size: 3rem;
+    }
+
     margin: 0px;
     font-weight: 600;
     font-size: 32px;
@@ -130,8 +189,8 @@
   @media (max-width: 786px),
   (max-width: 1100px) and (orientation: portrait) {
     background-position: right bottom;
-    background-size: 50%;
-    padding-bottom: 100px;
+    background-size: 30%;
+    padding-bottom: 200px;
   }
 
   background-repeat: no-repeat;
