@@ -4,7 +4,8 @@
 }
 
 .content-container {
-  @media (max-width: 786px) {
+  @media (max-width: 786px), 
+  (max-width: 1100px) and (orientation: portrait) {
     padding: 32px;
   }
 
