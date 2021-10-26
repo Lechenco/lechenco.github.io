@@ -24,3 +24,8 @@ defaults:
 
 markdown: kramdown
 highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
