@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-05-06T13:05:51+00:00</updated><id>/feed.xml</id><entry><title type="html">Apples</title><link href="/2018/08/21/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2018-08-21T00:00:00+00:00</published><updated>2018-08-21T00:00:00+00:00</updated><id>/2018/08/21/apples</id><content type="html" xml:base="/2018/08/21/apples.html"><![CDATA[<p>An apple is a sweet, edible fruit produced by an apple tree.</p>
+
+<p>Apple trees are cultivated worldwide, and are the most widely grown species in
+the genus Malus. <!--more-->The tree originated in Central Asia, where its wild ancestor,
+Malus sieversii, is still found today. Apples have been grown for thousands of
+years in Asia and Europe, and were brought to North America by European
+colonists.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[An apple is a sweet, edible fruit produced by an apple tree. Apple trees are cultivated worldwide, and are the most widely grown species in the genus Malus.]]></summary></entry><entry><title type="html">Bananas Saudáveis</title><link href="/2018/06/12/banbna.html" rel="alternate" type="text/html" title="Bananas Saudáveis" /><published>2018-06-12T00:00:00+00:00</published><updated>2018-06-12T00:00:00+00:00</updated><id>/2018/06/12/banbna</id><content type="html" xml:base="/2018/06/12/banbna.html"><![CDATA[<h1 id="bananas-são-incríveis">Bananas são incríveis</h1>
+
+<p>A banana is an edible fruit – botanically a berry – produced by several kinds
+of large herbaceous flowering plants in the genus Musa.
+<!--more-->
+In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size, color,
+and firmness, but is usually elongated and curved, with soft flesh rich in
+starch covered with a rind, which may be green, yellow, red, purple, or brown
+<code class="language-plaintext highlighter-rouge">when</code> ripe.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">function</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Hello World"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sayHello</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello World</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">`Hello </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+  <span class="p">}</span>  
+<span class="p">}</span>  </code></pre></figure>]]></content><author><name></name></author><summary type="html"><![CDATA[Bananas são incríveis A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary></entry></feed>
